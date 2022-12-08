@@ -1,0 +1,44 @@
+
+.btn{
+    width: 184px;
+    height: 70px;
+    border-radius: 50px;
+    font-size: 25px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+#hh{
+    background: url(./home-bg.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: left top;
+    background-size: 100% 750px;
+    text-align: center;
+    color: white;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height:  750px;
+}
+@media (max-width: 1800px){
+#hh {
+    background-size: 1800px 750px;
+}}
+   
+body{
+    margin: -8px;
+}
